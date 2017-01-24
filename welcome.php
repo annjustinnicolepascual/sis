@@ -25,7 +25,7 @@
 <head>
 <title>Review Account Details</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/trial.css" rel="stylesheet" />
+<link href="css/trial-1.css" rel="stylesheet" />
 </head>
 <body>
 <div class="col-lg-offset-3 col-lg-6">
