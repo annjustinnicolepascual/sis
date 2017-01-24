@@ -30,7 +30,7 @@
 <body>
 <div class="col-lg-offset-3 col-lg-6">
 <div class="well">
-
+<sub>Today is <?php echo date("l") . ", " . date("F d, Y") . ". " . " The time is now " . date("h:i:sa")?> </sub>
 <h1><b>Welcome, <?php echo $firstName . "!"?></b></h1>
 <p>Please review your account details.</p>
 </br>
