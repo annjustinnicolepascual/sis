@@ -40,6 +40,10 @@
 <p>Password: <?php echo $password ?></br></p>
 <p>Birthday: <?php echo $birthDate ?></br></p>
 </br>
+<form>
+    <button name="back" class="btn btn-success" formaction="register.php">Go Back!</button>
+</form>
+
 </div>
 </div>
 </body>
