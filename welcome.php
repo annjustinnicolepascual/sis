@@ -34,12 +34,12 @@
 <h1><b>Welcome, <?php echo $firstName . "!"?></b></h1>
 <p>Please review your account details.</p>
 </br>
-<p>ID Number: <b><?php echo $studentNo ?></b></br></p>
-<p>First Name: <?php echo $firstName ?></br></p>
-<p>Last Name: <?php echo $lastName ?></br></p>
-<p>E-mail Address: <?php echo $emailAddress ?></br></p>
-<p>Password: <?php echo $password ?></br></p>
-<p>Birthday: <?php echo $birthDate ?></br></p>
+<p>ID Number: <b><u><?php echo $studentNo ?></u></b></br></p>
+<p>First Name: <b><u><?php echo $firstName ?></u></b></br></p>
+<p>Last Name: <b><u><?php echo $lastName ?></u></b></br></p>
+<p>E-mail Address: <b><u><?php echo $emailAddress ?></u></b></br></p>
+<p>Password: <b><u><?php echo $password ?></u></b></br></p>
+<p>Birthday: <b><u><?php echo $birthDate ?></u></b></br></p>
 </br>
 <form>
     <button name="back" class="btn btn-success" formaction="register.php">Go Back!</button>
